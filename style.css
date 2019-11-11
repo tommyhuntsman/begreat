@@ -1,0 +1,174 @@
+body {
+  background-color: #e8e8e8;//
+  background-image: url("https://raw.githubusercontent.com/tommyhuntsman/www.tommyhuntsman.com/master/pattern1.png");
+}
+
+.body-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.header-container {
+  background-color: ;
+  display: flex;
+  align-items: flex-end;
+  margin:15px auto 10px;
+  flex-wrap: ;
+}
+
+.header-logo {
+  margin: 0;
+}
+
+h1 {
+  font-family: arial;
+  color: ;
+  margin-bottom: 0px
+}
+
+.nav-container {
+  display: flex;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.nav {
+  padding: 0 9px;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 100;
+  position: relative;
+  bottom: 0px;
+  margin-bottom: .7px;
+  cursor: pointer;
+}
+
+.nav:hover {
+  background-color: #ddd;
+}
+
+* {
+  box-sizing: border-box
+}
+
+.mySlides {
+  display: ;
+}
+
+img {
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: 2px auto 0px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 180px;
+  height:auto;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: ;
+  bottom: -80px;
+  width: 100%;
+  text-align: left;
+  font-family: arial;
+  font-weight: 700;
+}
+/* CSS display mobile media query, break, learnweb dev */
+.text2 {
+  color: black;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: ;
+  bottom: -120px;
+  width: 100%;
+  text-align: ;
+  font-family: arial;
+  font-weight: 200;
+  line-height: 1.45;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: .5s;
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
