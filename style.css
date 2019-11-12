@@ -7,7 +7,7 @@ body {
   max-width: 400px;
   margin: auto;
 }
-
+/*
 .header-container {
   background-color: ;
   display: flex;
@@ -18,14 +18,15 @@ body {
 
 .header-logo {
   margin: 0;
-}
+} */
 
 h1 {
   font-family: arial;
   color: ;
-  margin-bottom: 0px
+  margin-bottom: 0px;
+  text-align: center;
 }
-
+/*
 .nav-container {
   display: flex;
   overflow: auto;
@@ -49,7 +50,7 @@ h1 {
 
 .nav:hover {
   background-color: #ddd;
-}
+} */
 
 * {
   box-sizing: border-box
